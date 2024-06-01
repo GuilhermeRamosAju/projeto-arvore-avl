@@ -1,13 +1,13 @@
 import React from "react";
 import "./styles.css";
 
-type CreattionButtonProps = {
+type CreationButtonProps = {
   onClick: () => void;
   type: "start" | "insert" | "reset";
   text: string;
 };
 
-const CreattionButton: React.FC<CreattionButtonProps> = ({
+const CreationButton: React.FC<CreationButtonProps> = ({
   onClick,
   type,
   text,
@@ -19,4 +19,4 @@ const CreattionButton: React.FC<CreattionButtonProps> = ({
   );
 };
 
-export default CreattionButton;
+export default CreationButton;
