@@ -69,7 +69,7 @@ const Home = () => {
         </motion.div>
         <motion.div className="mt-6" variants={itemVariants}>
           <CreattionButton
-            onClick={() => navigate("/tree-creation")}
+            onClick={() => navigate("/projeto-arvore-avl/tree-creation")}
             text="Criar Árvore AVL"
             type="start"
           />
