@@ -5,11 +5,11 @@ import TreeCreation from "./pages/TreeCreation";
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/projeto-arvore-avl",
     element: <Home />,
   },
   {
-    path: "/tree-creation",
+    path: "/projeto-arvore-avl/tree-creation",
     element: <TreeCreation />,
   },
 ]);
