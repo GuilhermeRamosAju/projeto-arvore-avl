@@ -1,10 +1,11 @@
-import Home from "./pages/Home";
+import { RouterProvider } from "react-router-dom";
+import router from "./routes";
 function App() {
   return (
     <>
       <div className="flex flex-col mx-auto items-center min-h-screen bg-gray-700">
         <div className="flex flex-col items-center flex-grow w-[70%]">
-          <Home />
+          <RouterProvider router={router} />
         </div>
       </div>
     </>

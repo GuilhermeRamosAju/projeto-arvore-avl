@@ -1,0 +1,38 @@
+.start {
+  @apply hover:bg-amber-400;
+  --tw-text-opacity: 1;
+  background-color: rgb(253 230 138 / var(--tw-text-opacity));
+  color: #374151;
+  font-size: 1.2rem;
+  font-weight: 600;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.insert {
+  @apply hover:bg-green-600 hover:text-white;
+  --tw-text-opacity: 1;
+  background-color: rgb(70, 195, 116);
+  color: #374151;
+  font-size: 1.2rem;
+  font-weight: 400;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.reset {
+  @apply hover:bg-red-600 hover:text-white;
+  --tw-text-opacity: 1;
+  background-color: rgb(195, 70, 70);
+  color: #374151;
+  font-size: 1.2rem;
+  font-weight: 400;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s;
+}

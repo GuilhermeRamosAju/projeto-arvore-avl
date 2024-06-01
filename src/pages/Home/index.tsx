@@ -1,9 +1,11 @@
 import React from "react";
 import { motion } from "framer-motion";
-import CreattionButton from "../../components/CreattionButton";
+import CreattionButton from "../../components/CreationButton";
 import Footer from "../../components/Footer";
+import { useNavigate } from "react-router-dom";
 
 const Home = () => {
+  const navigate = useNavigate();
   const containerVariants = {
     hidden: { opacity: 0, y: 50 },
     visible: {
@@ -67,7 +69,7 @@ const Home = () => {
         </motion.div>
         <motion.div className="mt-6" variants={itemVariants}>
           <CreattionButton
-            onClick={() => console.log("teste")}
+            onClick={() => navigate("/tree-creation")}
             text="Criar Árvore AVL"
             type="start"
           />
